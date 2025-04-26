@@ -1,0 +1,37 @@
+{
+  "name": "@larryhudson/mcp-server-template",
+  "version": "0.1.2",
+  "description": "Model Context Protocol (MCP) server for X Y Z",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "simple-notion-mcp-server": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "ai"
+  ],
+  "author": "Larry Hudson <larryhudson@hey.com>",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/larryhudson/mcp-server-template.git"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2"
+  }
+}
