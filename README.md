@@ -1,5 +1,13 @@
 # [Template] MCP Server
 
+## How to use this template
+
+- Add tool definitions in src/index.ts
+- Update the README below
+- Update the placeholder info in package.json
+- Test building the MCP server with `npm run build`, and using the @modelcontextprotocol/inspector library
+- Publish to npm: `npm login`, `npm publish --access public`
+
 ## Overview
 
 [Insert overview here]
