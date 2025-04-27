@@ -65,7 +65,7 @@ Add this to your MCP configuration JSON file:
 ```json
 {
   "mcpServers": {
-    "notion": {
+    "[the-library]": {
       "command": "npx",
       "args": ["-y", "@larryhudson/[the-library]"],
       "env": {
